@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 19px;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    padding: 2em;
+    text-align: center;
+    height: 100%;
+    background: url('images/pattern-curve.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+
+
+.photo {
+    background: url('images/pattern-bg.svg');
+    background-size: contain;
+    padding: 1.6em;
+    padding-bottom: 0;
+
+}
+
+.photo > img {
+    width: 100%;
+    border-radius: 0.3em;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.137);
+}
+
+#pic2 {
+    display: none;
+}
+
+.controls {
+    background-color: white;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 1em;
+    position: relative;
+    top: -1.3em;
+}
+
+.text {
+    padding-top: 2em;
+    background: url('images/pattern-quotes.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 27%;
+}
+
+.testimony {
+    margin-bottom: 2em;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.position {
+    opacity: 50%;
+}
+
+
+#john {
+    display: none;
+}

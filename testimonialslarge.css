@@ -1,0 +1,36 @@
+@media (min-width: 1200px) {
+    
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        font-size: 32px;
+        padding: 3em;
+    }
+
+    .photo {
+        padding-bottom: 1em;
+        padding-right: 2.6em;
+        position: relative;
+    }
+
+    .controls {
+    width: 12%;
+    transform: translate(60px, -35px);
+    position: absolute;
+    top: unset;
+    }
+
+    .text {
+        text-align: left;
+        max-width: 560px;
+        transform: translateX(120px);
+        background-position: 20% 0%;
+        background-size: 20%;
+    }
+
+    .name, .position {
+        display: inline;
+        font-size: 16px;
+    }
+}
